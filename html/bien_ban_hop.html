@@ -35,7 +35,7 @@
     <div id="wrapper" class="no-overflow-x">
         <div class="page-wrapper">
             <!-- header of the page -->
-            <header class="fixed-top main-header header-white no-top-header" id="waituk-main-header">
+            <header class="fixed-top main-header header-white transparent with-side-panel-ico" id="waituk-main-header">
                 <div id="nav-section">
                     <div class="bottom-header container-fluid mega-menus" id="mega-menus">
                         <nav class="navbar navbar-toggleable-md no-border-radius no-margin mega-menu-multiple" id="navbar-inner-container">
@@ -76,20 +76,19 @@
                 </div>
             </header>
             <!--/header of the page -->
-            <main class="no-banner">
+            <main>
                 <!-- visual/banner of the page -->
-                <section class="visual visual-sub visual-no-bg">
-                    <div class="visual-inner no-overlay bg-gray-light">
-                        <div class="centered">
-                            <div class="container">
-                                <div class="visual-text visual-center">
-                                    <h1 class="visual-title visual-sub-title">Liên hệ với chúng tôi</h1>
-                                    <div class="breadcrumb-block">
-                                        <ol class="breadcrumb">
-                                            <li class="breadcrumb-item"><a href="index.html"> Home </a></li>
-                                            <li class="breadcrumb-item active"> Liên hệ </li>
-                                        </ol>
-                                    </div>
+                <section class="visual">
+                    <div class="visual-inner blog-default-banner dark-overlay parallax" data-stellar-background-ratio="0.55">
+                        <div class="container">
+                            <div class="visual-text-large text-left visual-center">
+                                <h1 class="visual-title visual-sub-title">Biên bản họp</h1>
+                                <p>Nơi lưu trữ các biên bản họp của nhóm.</p>
+                                <div class="breadcrumb-block">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="index.html"> Trang chủ </a></li>
+                                        <li class="breadcrumb-item active"> Biên bản </li>
+                                    </ol>
                                 </div>
                             </div>
                         </div>
@@ -98,96 +97,120 @@
                 <!--/visual/banner of the page -->
                 <!-- main content wrapper -->
                 <div class="content-wrapper">
-                    <section class="content-block pb-0">
+                    <section class="content-block">
                         <div class="container">
-                            <div class="contact-container">
-                                <h6 class="content-title contact-title">Liên hệ với chúng tôi</h6>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <!-- contact form -->
-                                        <form action="#" method="post" id="contact_form" class="waituk_contact-form">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <input type="text" placeholder="Họ *" id="con_fname" name="con_fname" class="form-control">
+                            <div class="row multiple-row">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="col-wrap">
+                                        <div class="post-grid reverse-grid reverse-grid">
+                                            <div class="img-block post-img">
+                                                <a href="#"><img src="img/img-31.jpg" alt="images"></a>
+                                                <time class="post-date" datetime="2016-10-10">17 Mar</time>
+                                            </div>
+                                            <div class="post-text-block bg-gray-light">
+                                                <strong class="content-title mb-0"><a href="#"><a href="#">Biên bản họp lần 1</a></a></strong>
+                                                <span class="content-sub-title">Làm quen với nhóm</span>
+                                                <p>Các thành viên giao lưu và làm quen với nhau.
+                                                    Bầu ra trưởng nhóm, phó nhóm và thư ký.
+                                                    Phân chia các công việc ban đầu
+                                                </p>
+                                                <div class="post-meta clearfix">
+                                                    <div class="post-link-holder">
+                                                        <a href="blog-single.html">Xem biên bản <span class="fa fa-arrow-right"><span class="sr-only">&nbsp;</span></span></a>
+                                                    </div>
+                                                    <div class="post-social text-right">
+                                                        <ul class="social-network social-small">
+                                                        </ul>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <input type="text" placeholder="Tên *" id="con_lname" name="con_lname" class="form-control">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <input type="tel" placeholder="Số điện thoại" id="con_phone" name="con_phone" class="form-control">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <input type="email" placeholder="Email *" id="con_email" name="con_email" class="form-control">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <textarea class="form-control" placeholder="Tin nhắn *" id="con_message" name="con_message"></textarea>
-                                            </div>
-                                            <div class="btn-container">
-                                                <button id="btn_sent" class="btn btn-primary btn-arrow">Gửi tin nhắn</button>
-                                                <p id="error_message"> </p>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="col-lg-6 col-xl-5 offset-xl-1">
-                                        <div class="info-slot">
-                                            <div class="icon"><span class="custom-icon-map-marker"></span></div>
-                                            <div class="text">
-                                                <address>Trường Đại học Công nghệ Thông tin
-                                                    <br>Khu phố 6, P.Linh Trung, Tp.Thủ Đức, Tp.Hồ Chí Minh
-                                                    <br>Việt Nam</address>
-                                            </div>
-                                        </div>
-                                        <div class="info-slot">
-                                            <div class="icon"><span class="custom-icon-headset"></span></div>
-                                            <div class="text">
-                                                <ul class="content-list contact-list">
-                                                    <li><span class="label-text">Điện thoại</span> <a href="tel:02837251993">(028) 372 51993</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="info-slot">
-                                            <div class="icon"><span class="custom-icon-message"></span></div>
-                                            <div class="text">
-                                                <ul class="content-list contact-list">
-                                                    <li><a href="mailto:22521311@gm.uit.edu.vn">22521311@gm.uit.edu.vn</a></li>
-                                                    <li><a href="mailto:22521679@gm.uit.edu.vn">22521679@gm.uit.edu.vn</a></li>
-                                                    <li><a href="mailto:wearearam17@gmail.com">wearearam17@gmail.com</a></li>
-                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="col-wrap">
+                                        <div class="post-grid reverse-grid">
+                                            <div class="img-block post-img">
+                                                <a href="#"><img src="img/img-31.jpg" alt="images"></a>
+                                                <time class="post-date" datetime="2016-10-10">24 Mar</time>
+                                            </div>
+                                            <div class="post-text-block bg-gray-light">
+                                                <strong class="content-title mb-0"><a href="#">Biên bản họp lần 2</a></strong>
+                                                <span class="content-sub-title">Hoàn thành các công việc đề ra</span>
+                                                <p>Kiểm tra tiến độ công việc của các thành viên trong nhóm. Đồng thời hoàn thành đúng thời hạn.</p>
+                                                <div class="post-meta clearfix">
+                                                    <div class="post-link-holder">
+                                                        <a href="Bien_ban_hop_lan_2.html">Xem biên bản <span class="fa fa-arrow-right"><span class="sr-only">&nbsp;</span></span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </section>
-                <!--/main content wrapper -->
                 </div>
+                <!--/main content wrapper -->
             </main>
         </div>
-        <!-- footer of the page -->
-
+        <!-- footer of the pagse -->
+        <footer class="footer footer-v1">
+            <div class="content-block footer-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="footer-logo">
+                                <img src="img/logolightvl.svg" alt="image-description">
+                            </div>
+                            <div class="my-4">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4>Follow us on:</h4>
+                            <ul class="social-network round-icon">
+                                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                                <li><a href="#"><span class="icon-twitter"></span></a></li>
+                                <li><a href="#"><span class="icon-google-plus"></span></a></li>
+                                <li><a href="#"><span class="icon-pinterest"></span></a></li>
+                                <li><a href="#"><span class="icon-dribbble"></span></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4>Subscribe to our newsletter</h4>
+                            <div class="waituk_newsletter-form newsletter-v1 mt-2">
+                                <form action="#" method="post">
+                                    <fieldset class="clearfix">
+                                        <div class="form-group input-holder">
+                                            <input type="email" class="form-control" placeholder="Email Address">
+                                            <button type="submit" class="btn"><i class="fa fa-send"></i></button>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="divider-border-dark mt-0"><span class="sr-only">&nbsp;</span></div>
+                    <p>Copyright 2016 - Roxine - Multi Purpose Theme by Waituk </p>
+                </div>
+            </div>
+        </footer>
         <!--/footer of the page -->
     </div>
-     <!-- search form wrapper -->
+    <!-- search form wrapper -->
     <div class="search-form-wrapper">
         <a href="#" class="nav-search-link close"><span class="icon-android-close"></span></a>
         <div class="holder">
             <input type="search" class="form-control form-control-v1" placeholder="Enter Your Search">
-             <button type="submit"><span class="custom-icon-search"></span></button>
+            <button type="submit"><span class="custom-icon-search"></span></button>
         </div>
     </div>
-
     <a href="#" class="section-scroll" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
     <!-- jquery library -->
     <script src="vendors/jquery/jquery-2.1.4.min.js"></script>
@@ -211,9 +234,6 @@
     <script src="js/mega-menu.js"></script>
     <!-- custom jquery script -->
     <script src="js/jquery.main.js"></script>
-    <script src="js/jquery.validate.js"></script>
-    <script src="js/mailchimp.js"></script>
-    <script src="js/contact-form.js"></script>
     <!-- REVOLUTION JS FILES -->
     <script type="text/javascript" src="vendors/rev-slider/revolution/js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="vendors/rev-slider/revolution/js/jquery.themepunch.revolution.min.js"></script>
@@ -229,8 +249,7 @@
     <script type="text/javascript" src="vendors/rev-slider/revolution/js/extensions/revolution.extension.video.min.js"></script>
     <!-- SNOW ADD ON -->
     <script type="text/javascript" src="vendors/rev-slider/revolution-addons/snow/revolution.addon.snow.min.js"></script>
-        <!-- revolutions slider script -->
+    <!-- revolutions slider script -->
     <script src="js/revolution.js"></script>
-</body>
 
 </html>
